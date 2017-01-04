@@ -1,0 +1,73 @@
+@import '../less/elements.less';
+
+.anim(...) {  
+  -webkit-animation: @arguments;
+  -moz-animation:  @arguments;
+  -o-animation: @arguments;
+  animation: @arguments;
+}
+
+
+.transition-properties(...) {
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments;
+}
+
+.backgroundSize(...) { 
+    -webkit-background-size: @arguments;
+    -moz-background-size: @arguments;
+    background-size: @arguments;
+    -o-background-size: @arguments;
+}
+
+
+.iamp-anim {
+  .anim(wpb_ltr 2s 1 cubic-bezier(0.175, 0.885, 0.32, 1.275)); 
+  opacity: 1;
+}
+
+
+.plume { 
+    .transition-properties(all 1.7s ease-in-out); 
+}
+
+.nav > li > a:hover 
+, .nav > li > a:focus {
+    .inner-shadow(5, 10px, 10px, 0.8);
+}
+
+.brand-heading {
+    text-shadow: 0px 0px 10px rgba(120, 120, 150, 1);
+}
+
+.intro-text {
+    text-shadow: 0px 0px 5px rgba(120, 120, 150, 1);
+}
+
+.imgcover {    
+    .backgroundSize(cover);
+}
+
+a {
+    .transition-properties(background-color .5s ease-in-out); 
+}
+
+@media(min-width:768px) { 
+    .navbar { 
+        .transition-properties(all .7s ease-in-out);
+    } 
+
+    .top-nav-collapse { 
+        .drop-shadow(0, 10px, 10px, 0.4);
+    }
+}
+
+
+
+
+
+
+
+
