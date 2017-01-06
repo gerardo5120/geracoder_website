@@ -1,2 +1,2 @@
-DirectoryIndex index.htm
+DirectoryIndex index.htm index.php
 ErrorDocument 404 inddex.htm
