@@ -337,8 +337,8 @@ a.intro-link {
     background-size: 12%;
 }
 
-.myskills-overlay-christian-fish {
-    background: url(../img/christian_fish.jpg) 15% 30% no-repeat fixed;
+.myskills-overlay-code {
+    background: url(../img/code.jpg) 15% 30% no-repeat fixed;
     opacity: 1;
     background-size: 25%;
 }
@@ -588,9 +588,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003d7f', end
 
 
 
-img.MeImage {
-    width: 150px;
-    border-radius: 50%;
+img.AboutMe {
+    width: 220px;
+    height: 220px;
     margin-top: 35px;
     margin-bottom: 20px;
 }

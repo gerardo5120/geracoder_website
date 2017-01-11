@@ -4,7 +4,7 @@ $(document)
     // ***** Parallax Effect ***** 
     var $window = $(window);
     var $scroll_fb = $(".about-overlay-fb");
-    var $scroll_help = $("#contact");
+    var $scroll_contact = $("#contact");
 
 
     var $scroll_bulb = $("#myskills_overlay_bulb");
@@ -13,7 +13,7 @@ $(document)
     var $scroll_algo = $("#myskills_overlay_algo");
     var $scroll_smphone = $("#myskills_overlay_smphone");
     var $scroll_htmlcode = $("#myskills_overlay_htmlcode");
-    var $scroll_christian_fish = $("#myskills_overlay_christian_fish");
+    var $scroll_code = $("#myskills_overlay_code");
 
     var $help = $("#help");
 
@@ -51,16 +51,16 @@ $(document)
         coords = '80% ' + yPos + 'px';
         $scroll_smphone.css({ backgroundPosition: coords });
        
-        yPos = ($window.scrollTop()/ $scroll_christian_fish.data('speed'));
+        yPos = ($window.scrollTop()/ $scroll_code.data('speed'));
         coords = '15% ' + yPos + 'px';
-        $scroll_christian_fish.css({ backgroundPosition: coords });
+        $scroll_code.css({ backgroundPosition: coords });
         
 
 
  
-        yPos = ($window.scrollTop()/ $scroll_help.data('speed')) - 1450;
+        yPos = ($window.scrollTop()/ $scroll_contact.data('speed')) - 1850;
         coords = '50% ' + yPos + 'px';
-        $scroll_help.css({ backgroundPosition: coords });
+        $scroll_contact.css({ backgroundPosition: coords });
     });
 });
 
