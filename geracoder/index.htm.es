@@ -259,6 +259,7 @@
                                   <li>Recuerdo cuando me enseñaron a hablar 👶  (nadie me cree)</li>
                                   <li>No tomo café desde hace mas de seis meses 🙅 ☕️ </li>
                                   <li>Runner 🏃🏽</li>
+                                  <li>Enamorandome del té ❤️ ☕️</li>
                                   <li>Tengo la sonrisa mas bella (de acuerdo a mi novia) 😍</li>
                                   <li>Curioso ❔</li>
                                   <li>¡Arriba mis rayos del Necaxa! ⚽️⚡️⚡️</li> 
