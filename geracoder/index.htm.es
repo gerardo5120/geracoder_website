@@ -238,7 +238,7 @@
                             <h3><a href="http://itpiedrasnegras.edu.mx">IT Piedras Negras</a> Licenciado en Informática</h3>
                         </div>
                         <div class="col-sm-4">
-                            <img src="img/years_experience.png" alt="7 years of service" />
+                            <img src="img/years_experience_es.png" alt="7 years of service" />
                         </div>
                     </div>
                 </div>
