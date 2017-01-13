@@ -183,6 +183,13 @@ a.intro-link {
     width: 100%;
 }
 
+.intro a.Language {
+      display: block;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #FFFFFF;
+}
 
 
 

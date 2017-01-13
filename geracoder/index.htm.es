@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us"> 
+<html lang="es-mx"> 
 	<head>
         <!-- Metas -->
         <meta charset="utf-8">
@@ -7,14 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="programmer, coder, hacker, geek, developer, backend, frontend, mobile applicatin development, java, c++, c#, .net, swift, android, mexico, web design, web development" />
 
-        <meta name="description" content="I'm a software developer, I've been passionate of computers since I was fifteen years old. C#, Swift, Python, Java 7, Android">
+        <meta name="description" content="Soy un programador informático,  me apasionan las computadoras desde mis dieciséis años. C#, Swift, Python, Java 7, Android">
         <meta name="author" content="Gerardo Yañez (gerardo5120@gmail.com)">
 
         <!-- Facebook Metas -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://geracoder.com" />
-        <meta property="og:title" content="Gera's Personal Website 🌎💻📱" />
-        <meta property="og:description" content="I'm a software developer, I've been passionate of computers since I was fifteen years old. C#, Swift, Python, Java 7, Android" />
+        <meta property="og:title" content="Página Personal de Gera 🌎💻📱" />
+        <meta property="og:description" content="Soy un programador informático,  me apasionan las computadoras desde mis dieciséis años. C#, Swift, Python, Java 7, Android" />
         <meta property="og:image" content="http://geracoder.com/img/me.jpg" />
         
 		
@@ -67,25 +67,25 @@
                         <li>
                             <a class="page-scroll" href="#iam">
                                 <span class="glyphicon glyphicon-flash"></span>
-                                I am 
+                                Yo Soy
                             </a>
                         </li>
                         <li class="page-scroll">
                             <a class="page-scroll" href="#myskills">
                                 <span class="glyphicon glyphicon-hand-up"></span> 
-                                What I can do 
+                                Qué se hacer
                             </a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#creds">
                                 <span class="glyphicon glyphicon-briefcase"></span>
-                                Credentials 
+                                Credenciales
                             </a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#pers">
                                 <span class="glyphicon glyphicon-user"></span>
-                                About Me
+                                Acerca de
                             </a>
                         </li>
                         <li class="page-scroll">
@@ -95,7 +95,7 @@
                             </a>
                         </li>
                         <li class="page-scroll">
-                            <a class="page-scroll" href="http://blog.geracoder.com">
+                            <a class="page-scroll" href="http://blog.geracoder.com/es/">
                                 <span class="glyphicon glyphicon-bullhorn"></span>
                                 Blog
                             </a>
@@ -114,15 +114,15 @@
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <a class="intro-link" href="https://www.google.com/search?q=Psalms+37%3A4" target="_blank">Ps 37:4</a>
+                            <a class="intro-link" href="https://www.google.com.mx/search?q=Salmos+37%3A4" target="_blank">Sal 37:4</a>
                             <br />
                             <h1 class="brand-heading">Gera Yañez</h1>
-                            <p class="intro-text">Programers are angels of liberation</p>
+                            <p class="intro-text">Los programadores somos ángeles de liberación</p>
                             <a href="#iam" class="btn btn-circle page-scroll">
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </a>
                             
-                            <a class="Language" href="index.htm.es"><img src="img/es-mx.png" />&nbsp;Español</a> 
+                            <a class="Language" href="index.htm"><img src="img/en-us.png" />&nbsp;English</a> 
                         </div>
                     </div>
                 </div>
@@ -136,6 +136,7 @@
 
                 <div><a href="https://twitter.com/share" style="vertical-align: super;" class="twitter-share-button" data-lang="en">Tweet</a></div>
             </div>
+
         </section>
 
 
@@ -146,8 +147,8 @@
                         <div class="col-md-8 col-md-offset-2"> 
                             <hr class="hr1" />
                             <div class="helmet"><div class="plume"></div></div>
-                            <h2 style="font-style: italic;" >Best Engineers Are Also Artist</h2>
-                            <p class="iamp iamp-hidden">Both technology and art demand inspiration and genius.Engineers and artist see the world like something unfinished, but can be perfect through our work.</p>
+                            <h2 style="font-style: italic;" >Los Mejores Ingenieros También Son Artistas</h2>
+                            <p class="iamp iamp-hidden">Tanto la tecnología como el arte requieren de inspiración y genialidad. Ingenieros y artistas vemos al mundo como algo inconcluso, que se puede perfeccionar a través de nuestras obras</p>
                             <hr class="hr1" />
                     </div>
     
@@ -167,7 +168,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2 class="section-heading" >What I can do</h2>
+                            <h2 class="section-heading" >Qué se hacer</h2>
                         </div>
                         <div class="col-sm-4">
                             <div class="panel">
@@ -186,7 +187,7 @@
                                     <h4><i class="fa fa-fw fa-check"></i>Back-End</h4>
                                 </div>
                                 <div class="panel-body">
-                                    <p>ASP.Net (C#), Java SE, Python, SQL Server, MySQL. And a little of Node.js, MongoDB. </p>
+                                    <p>ASP.Net (C#), Java SE, Python, SQL Server, MySQL. Y un poco de Node.js, MongoDB. </p>
                                     <a href="https://www.linkedin.com/in/gerardo-yañez-28678251" class="MySkillsLink">
                                         <img src="img/linkedinlogo.png" class="LinkedInLogo" alt="LinkedIn Logo" />
                                     </a>
@@ -200,14 +201,14 @@
                                 </div>
                                 <div class="panel-body">
                                     <p>Android, iOS (Swift). Responsive Web Design. Mobile UX</p>
-                                    <a href="https://play.google.com/store/apps/developer?id=Gerardo+Yanez" class="MySkillsLink" alt="Look for me on Google Play">
+                                    <a href="https://play.google.com/store/apps/developer?id=Gerardo+Yanez" class="MySkillsLink" alt="Buscame en Google Play">
                                         <img src="img/Google_Play_Store_96.png" class="GPlayLogo" alt="Google Play Logo" />
-                                        Look for me on Google Play ™
+                                        Buscame en Google Play ™
                                     </a>
                                     <br />
-                                    <a href="https://itunes.apple.com/mx" class="MySkillsLink" alt="Look for me on App Store">
+                                    <a href="https://itunes.apple.com/mx" class="MySkillsLink" alt="Buscame en App Store">
                                         <img src="img/App-Store-Icon.png" class="AppStoreLogo" alt="Google Play Logo" />
-                                        Look for me on App Store ™
+                                        Buscame en la App Store ™
                                     </a>
                                 </div>
                             </div>
@@ -222,7 +223,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <h2 class="section-heading" >Credentials</h2>
+                            <h2 class="section-heading" >Credenciales</h2>
                         </div>
                     </div>
                     
@@ -234,7 +235,7 @@
                         </div> 
                         <div class="col-sm-4">
                             <img src="img/ITPNLogo.png" class="ITPNLogo" alt="ITPN Logo" />
-                            <h3><a href="http://itpiedrasnegras.edu.mx">IT Piedras Negras</a> Licenciado en Informática (Bachelor's Degree in Computer Science)</h3>
+                            <h3><a href="http://itpiedrasnegras.edu.mx">IT Piedras Negras</a> Licenciado en Informática</h3>
                         </div>
                         <div class="col-sm-4">
                             <img src="img/years_experience.png" alt="7 years of service" />
@@ -249,18 +250,18 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2"> 
-                            <h2 class="section-heading">About me</h2>
-                            <p>I'm a software engineer from the north of Mexico. I live passionate of computers since I was fiveteen years old, though for some time I've been interested in psychology. During adolescence I doscovered the poetry and I found out exciting</p>
+                            <h2 class="section-heading">Acerca de</h2>
+                            <p>Soy un ingeniero de software originario del norte de México. Vivo apasionado de las computadores desde los quince años, aunque algún tiempo me sentí atraído hacia la psicología. En la adolescencia descubrí la poesía y la encontré fascinante.</p>
 
                             <h3>Facts</h3>
                             <ul>
-                                  <li>Christian believer 🙌</li>
-                                  <li>I rememver when I was being taught to speak 👶  (nobody trust me)</li>
-                                  <li>I have not drunk coffee since more than six months 🙅 ☕️ </li>
+                                  <li>Cristiano pentecostés 🙌</li>
+                                  <li>Recuerdo cuando me enseñaron a hablar 👶  (nadie me cree)</li>
+                                  <li>No tomo café desde hace mas de seis meses 🙅 ☕️ </li>
                                   <li>Runner 🏃🏽</li>
-                                  <li>I have the most beautiful smile (according to my girlfriend)😍</li>
-                                  <li>Curious ❔</li>
-                                  <li>Fan of the mexican soccer team Necaxa ⚽️⚡️⚡️</li> 
+                                  <li>Tengo la sonrisa mas bella (de acuerdo a mi novia) 😍</li>
+                                  <li>Curioso ❔</li>
+                                  <li>¡Arriba mis rayos del Necaxa! ⚽️⚡️⚡️</li> 
                             </ul>
                             
                             
@@ -284,29 +285,29 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <img class="AboutMe img-thumbnail img-circle" src="img/me.jpg" />
-                            <p>Being cool</p>
+                            <p>Siendo cool</p>
                         </div>
                         <div class="col-lg-4">
                             <img class="AboutMe img-thumbnail img-circle" src="img/charity.jpg" />
-                            <p>Giving away gifts to children</p>
+                            <p>Entregando juguetes a niños</p>
                         </div>
                         <div class="col-lg-4">
                             <img class="AboutMe img-thumbnail img-circle" src="img/church.jpg" />
-                            <p>At church</p>
+                            <p>En la iglesia</p>
                         </div>
                   </div>
                   <div>
                         <div class="col-lg-4">
                             <img class="AboutMe img-thumbnail img-circle" src="img/running.jpg" />
-                            <p>Participating on a 5k race</p>
+                            <p>Participando en una carrera 5k</p>
                         </div>
                         <div class="col-lg-4">
                             <img class="AboutMe img-thumbnail img-circle" src="img/farewell_party.jpg" />
-                            <p>Farewell party from my old job</p>
+                            <p>Despedida de mi antiguo trabajo</p>
                         </div>
                         <div class="col-lg-4">
                             <img class="AboutMe img-thumbnail img-circle" src="img/childhood.jpg" />
-                            <p>A childhood photo</p>
+                            <p>Una foto de mi niñez</p>
                         </div>
                     </div>
                 </div>
@@ -358,7 +359,7 @@
                     </div>
                     <div class="col-sm-4">
                         <a href="https://github.com/gerardo5120/geracoder_website" target="blank">
-                              This is available on github &nbsp;
+                              Ésto esta disponible en github &nbsp;
                               <img style="width: 24px; height: 24px;" src="img/githublogo_24px_x3.png" />
                         </a>
                     </div>
