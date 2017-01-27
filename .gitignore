@@ -4,5 +4,6 @@
 .DS_Store
 
 # Vim Swap Files
+*.swp
 *.[swp][swk][swl][swm][swn][swo]
 
