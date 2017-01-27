@@ -3,7 +3,18 @@
 # OSX Desktop Store Service
 .DS_Store
 
-# Vim Swap Files
-*.swp
-*.[swp][swk][swl][swm][swn][swo]
+# ***** Vim *****
+#
+# Swap Files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
 
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+
+# auto-generate tag files
+tags
