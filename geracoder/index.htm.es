@@ -188,7 +188,7 @@
                                 </div>
                                 <div class="panel-body">
                                     <p>ASP.Net (C#), Java SE, Python, SQL Server, MySQL. Y un poco de Node.js, MongoDB. </p>
-                                    <a href="https://www.linkedin.com/in/gerardo-yañez-28678251" class="MySkillsLink">
+                                    <a href="https://www.linkedin.com/in/28678251" class="MySkillsLink">
                                         <img src="img/linkedinlogo.png" class="LinkedInLogo" alt="LinkedIn Logo" />
                                     </a>
                                 </div>
@@ -340,7 +340,7 @@
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="https://www.linkedin.com/in/gerardo-yañez-28678251" title="Linkedin" target="_blank" class="contact-logo linkedin-logo">
+                            <a href="https://www.linkedin.com/in/28678251" title="Linkedin" target="_blank" class="contact-logo linkedin-logo">
                                 &nbsp;
                             </a>
                         </div>
