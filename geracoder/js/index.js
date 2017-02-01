@@ -1,12 +1,13 @@
 
 $(document)
 .ready(function () {
-    // ***** Parallax Effect ***** 
     var $window = $(window);
-    var $scroll_fb = $(".about-overlay-fb");
-    var $scroll_contact = $("#contact");
+   
 
 
+    // *** Elements with different scrolling speed (parallax effect) ***
+    
+    // What I can do section
     var $scroll_bulb = $("#myskills_overlay_bulb");
     var $scroll_einstein = $("#myskills_overlay_einstein");
     var $scroll_html5 = $("#myskills_overlay_html5");
@@ -15,15 +16,24 @@ $(document)
     var $scroll_htmlcode = $("#myskills_overlay_htmlcode");
     var $scroll_code = $("#myskills_overlay_code");
 
-    var $help = $("#help");
+    // Contact section
+    var $scroll_contact = $("#contact");
+
+   
+
+
+    // Change several elements appearance when scrolling
 
     $(window).scroll(function() {
+        
+        // Change navbar    
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse")
         } else {
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
         }
-    //    return;
+        
+        // Change the hat's plume in I am section
         if ($window.scrollTop() >= 420) {
             $(".plume").addClass("plume-show");
             $(".iamp").addClass("iamp-anim").removeClass("iamp-hidden");
@@ -34,11 +44,11 @@ $(document)
 
 
 
+        
+        //***** Effects scroll over elements (parallax effect) *****
         var yPos;
         var coords;
 
-        
-        //***** Effects scroll over elements *****
         yPos = ($window.scrollTop()/ $scroll_bulb.data('speed'));
         coords = '25% ' + yPos + 'px';
         $scroll_bulb.css({ backgroundPosition: coords });
@@ -56,7 +66,6 @@ $(document)
         $scroll_code.css({ backgroundPosition: coords });
         
 
-
  
         yPos = ($window.scrollTop()/ $scroll_contact.data('speed')) - 1850;
         coords = '50% ' + yPos + 'px';
@@ -70,7 +79,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 2000, 'easeInOutExpo');
+        }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
 });

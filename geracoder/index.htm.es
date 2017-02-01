@@ -176,7 +176,7 @@
                                     <h4><i class="fa fa-fw fa-check"></i>Front-End</h4>
                                 </div>
                                 <div class="panel-body">
-                                      <p>HTML 5: JavaScript y CSS3, Backbone.js, jQuery, Web Components.</p>
+                                      <p>HTML 5: JavaScript y CSS3, Twitter Bootstrap, jQuery, Web Components.</p>
                                     <iframe src="http://ghbtns.com/github-btn.html?user=gerardo5120&size=large&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="225" height="30"></iframe>
                                 </div>
                             </div>
@@ -371,7 +371,7 @@
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
-        <script src="js/index.js"></script>
+        <script src="js/index.js?v2017013101"></script>
     </body>
 
 
