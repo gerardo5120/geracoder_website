@@ -26,8 +26,8 @@
         <link href="css/bootstrap.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="css/customs.css" rel="stylesheet">
-        <link href="css/less.customs.css?v=2" rel="stylesheet">
+        <link href="css/customs.css?v2017020401" rel="stylesheet">
+        <link href="css/less.customs.css?v2017020401" rel="stylesheet">
 
 
         <!-- Google Analytics -->
@@ -67,37 +67,37 @@
                         <li>
                             <a class="page-scroll" href="#iam">
                                 <span class="glyphicon glyphicon-flash"></span>
-                                Yo Soy
+                                &nbsp;Yo Soy
                             </a>
                         </li>
                         <li class="page-scroll">
                             <a class="page-scroll" href="#myskills">
                                 <span class="glyphicon glyphicon-hand-up"></span> 
-                                Qué se hacer
+                                &nbsp;Qué se hacer
                             </a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#creds">
                                 <span class="glyphicon glyphicon-briefcase"></span>
-                                Credenciales
+                                &nbsp;Credenciales
                             </a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#pers">
                                 <span class="glyphicon glyphicon-user"></span>
-                                Acerca de
+                                &nbsp;Acerca de
                             </a>
                         </li>
                         <li class="page-scroll">
                             <a class="page-scroll" href="#contact">
                                 <span class="glyphicon glyphicon-phone"></span>
-                                Social
+                                &nbsp;Social
                             </a>
                         </li>
                         <li class="page-scroll">
                             <a class="page-scroll" href="http://blog.geracoder.com/es/">
                                 <span class="glyphicon glyphicon-bullhorn"></span>
-                                Blog
+                                &nbsp;Blog
                             </a>
                         </li>
                     </ul>
@@ -159,10 +159,10 @@
 
         <section id="myskills" class="myskills text-center" style="position: relative;" >
 
-            <div id="myskills_overlay_smphone" class="myskills-overlay myskills-overlay-smphone" data-speed="2"></div>
-            <div id="myskills_overlay_html5" class="myskills-overlay myskills-overlay-html5" data-speed="4"></div>
-            <div id="myskills_overlay_bulb" class="myskills-overlay myskills-overlay-bulb" data-speed="7"></div>
-            <div id="myskills_overlay_code" class="myskills-overlay myskills-overlay-code" data-speed="2"></div>
+            <div id="myskills_overlay_code" class="myskills-overlay myskills-overlay-code"></div>
+            <div id="myskills_overlay_bulb" class="myskills-overlay myskills-overlay-bulb"></div>
+            <div id="myskills_overlay_html5" class="myskills-overlay myskills-overlay-html5"></div>
+            <div id="myskills_overlay_smphone" class="myskills-overlay myskills-overlay-smphone"></div>
             
             <div class="myskills-body">
                 <div class="container">
@@ -315,7 +315,7 @@
             </div>
         </section>
 
-        <section id="contact" class="contact imgcover text-center" data-speed="2" data-type="background" >
+        <section id="contact" class="contact imgcover text-center" data-type="background" >
             <div class="contact-body">
                 <div class="container">
                     <div class="row">
@@ -371,7 +371,7 @@
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
-        <script src="js/index.js?v2017013101"></script>
+        <script src="js/index.js?v=2017020401"></script>
     </body>
 
 

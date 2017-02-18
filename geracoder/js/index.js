@@ -19,7 +19,17 @@ $(document)
     // Contact section
     var $scroll_contact = $("#contact");
 
-   
+    var code_top = $scroll_code.position().top;
+    var bulb_top = $scroll_bulb.position().top;
+    var html_5_top = $scroll_html5.position().top; 
+    var smphone_top = $scroll_smphone.position().top;
+    var contact_top = $scroll_contact.position().top;
+
+    var code_speed = $scroll_code.data('speed');
+    var bulb_speed = $scroll_bulb.data('speed');
+    var html_speed = $scroll_html5.data('speed');
+    var smphone_speed = $scroll_smphone.data('speed');
+
 
 
     // Change several elements appearance when scrolling
@@ -48,28 +58,20 @@ $(document)
         //***** Effects scroll over elements (parallax effect) *****
         var yPos;
         var coords;
+        var scroll_top = $window.scrollTop();
 
-        yPos = ($window.scrollTop()/ $scroll_bulb.data('speed'));
-        coords = '25% ' + yPos + 'px';
-        $scroll_bulb.css({ backgroundPosition: coords });
-        
-        yPos = ($window.scrollTop()/ $scroll_html5.data('speed'));
-        coords = '60% ' + yPos + 'px';
-        $scroll_html5.css({ backgroundPosition: coords });
-        
-        yPos = ($window.scrollTop()/ $scroll_smphone.data('speed'));
-        coords = '80% ' + yPos + 'px';
-        $scroll_smphone.css({ backgroundPosition: coords });
-       
-        yPos = ($window.scrollTop()/ $scroll_code.data('speed'));
-        coords = '15% ' + yPos + 'px';
-        $scroll_code.css({ backgroundPosition: coords });
-        
+        setBackPosition($scroll_code, 10, 4);
+        setBackPosition($scroll_bulb, 35, 16);
+        setBackPosition($scroll_html5, 65, 5);
+        setBackPosition($scroll_smphone, 80, 8);
 
- 
-        yPos = ($window.scrollTop()/ $scroll_contact.data('speed')) - 1850;
-        coords = '50% ' + yPos + 'px';
-        $scroll_contact.css({ backgroundPosition: coords });
+        setBackPosition($scroll_contact, 50, 2);
+        
+        function setBackPosition(elem, width_perc, speed) {
+            yPos = (scroll_top - elem.position().top) / speed;
+            coords = "" + width_perc + "% " + yPos + "px";
+            elem.css({ backgroundPosition: coords });
+        }
     });
 });
 

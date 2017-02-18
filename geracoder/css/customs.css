@@ -73,8 +73,35 @@ html {
     text-shadow: 0px 0px 10px #787896;
 }
 
+.navbar {
+    background-color: #03417f;
+}
+
 .navbar-brand {
     padding: 5px;
+}
+
+.navbar-brand img {
+    margin: 3px 10px 3px 10px;
+}
+
+.navbar span.glyphicon {
+    margin-right: 10px;
+}
+
+.nav > li > a
+, .nav > li > a {
+    border: 1px solid transparent;
+    
+}
+
+.nav > li > a:hover 
+, .nav > li > a:focus {
+    background-color: #e8eefa;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-left-color: #72c8d8;
+    border-right-color: #72c8d8;    
 }
 
 @media (max-width:479px){
@@ -325,29 +352,29 @@ a.intro-link {
 
 .myskills-overlay  {
     margin: 0px;
-    height: 588px;
+    height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
 }
 
+.myskills-overlay-code {
+    background: url(../img/code.jpg) 10% 100% no-repeat fixed;
+    opacity: 1;
+    background-size: 20%;
+}
+
 .myskills-overlay-bulb {
-    background: url(../img/bulb.jpg) 25% 20% no-repeat fixed;
+    background: url(../img/bulb.jpg) 35% 20% no-repeat fixed;
     opacity: 1;
     background-size: 12%;
 }
 
 .myskills-overlay-html5 {
-    background: url(../img/html5.jpg) 75% 45% no-repeat fixed;
+    background: url(../img/html5.jpg) 65% 45% no-repeat fixed;
     opacity: 1;
     background-size: 12%;
-}
-
-.myskills-overlay-code {
-    background: url(../img/code.jpg) 15% 30% no-repeat fixed;
-    opacity: 1;
-    background-size: 25%;
 }
 
 .myskills-overlay-smphone {
@@ -602,10 +629,6 @@ img.AboutMe {
     margin-bottom: 20px;
 }
 
-.navbar {
-    background-color: #03417f;
-}
-
 
 
 .footer {
@@ -614,29 +637,6 @@ img.AboutMe {
 }
 
 
-
-.nav > li > a
-, .nav > li > a {
-    border: 1px solid transparent;
-    
-}
-
-
-.nav > li > a:hover 
-, .nav > li > a:focus {
-    background-color: #e8eefa;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-left-color: #72c8d8;
-    border-right-color: #72c8d8;    
-}
-
-
-
-
-.navbar {
-    background-color: #03417f;
-}
 
 
 @media (max-width:640px){
@@ -661,12 +661,11 @@ img.AboutMe {
     }
 
     .contact {
-        /*background: url(../img/office-small-479px.jpg) no-repeat center bottom scroll;*/
-        display: none;
+          /* NOPE */
     }
 
     .myskills-overlay {
-        display: none;
+          background-size: 25%;
     } 
 }
 
@@ -706,6 +705,11 @@ img.AboutMe {
 
  
 @media(min-width:767px) { 
+
+   .navbar-brand img {
+        margin: 0px;
+   }
+
    .intro {
         background: url(../img/main-big.jpg) no-repeat top center scroll;
     }

@@ -1,3 +1,7 @@
 DirectoryIndex index.htm index.php
 ErrorDocument 404 "Sorry dude, not found"
 ErrorDocument 403 "Sorry dude, you can't see this"
+
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Language} (en) [NC]
+RewriteRule .* %sitename%/en/index.html [R,L]
