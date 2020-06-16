@@ -5,3 +5,7 @@ ErrorDocument 403 "Sorry dude, you can't see this"
 RewriteEngine on
 RewriteCond %{HTTP:Accept-Language} (en) [NC]
 RewriteRule .* %sitename%/en/index.html [R,L]
+
+<IfModule dir_module>
+    DirectoryIndex index.htm
+</IfModule>
